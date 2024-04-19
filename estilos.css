@@ -18,12 +18,38 @@ body{
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.05rem;
-    background: linear-gradient(to right, lightblue, white);
+    background: linear-gradient(to left, #c1c9c8,#615566 );
+    margin: 0;
 }
 
+
 h1, h2{
-    background-color: black;
-    color: lightgray;
+    color: #29251c;
+}
+
+.color1 { #dbd9b7 };
+.color2 { #c1c9c8 };
+.color3 { #a5b5ab };
+.color4 { #949a8e };
+.color5 { #615566 };
+
+/* .color1 { #e7ddd3 };
+.color2 { #c0c2bd };
+.color3 { #9c9994 };
+.color4 { #29251c };
+.color5 { #e6aa9f }; */
+
+header{
+    background-image: url(imagens/CYA_Desenvolvimento.png);    background-repeat: no-repeat;
+}
+.menu {
+    display: inline;
+    padding: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
 }
 
 h1{
