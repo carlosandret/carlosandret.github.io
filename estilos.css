@@ -4,29 +4,43 @@ body{
     font-family: 'Open Sans';
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right, #f7d7bd, #EADFDB);
+    background-color: white;
+    color: black;
 }
 
 header{
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
-img{
-    object-fit: cover; /* ajusta a imagem para preencher todo o espaço do container, cortando a imagem para caber no container */
-    width: 100%;
+h1, h2, h3, h4, h5, h6{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 h1{
     text-align: center;
 }
 
-p, h1, h2, h3, h4, h5, h6{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h4{
+    margin-top: 0;
+    padding-top: 0;
 }
 
 p{
     text-indent: 0rem;
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+}
+
+li{
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
 }
 
 sup{
@@ -36,7 +50,7 @@ sup{
 
 a:link, a:visited {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover, a:active {
@@ -50,42 +64,67 @@ aside{
     position: relative;
 }
 
+table{
+    margin: 5%;
+}
+
+button{
+    width: 13%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .icones{
-    position: absolute;
-    
+    width: 40px;
+    height: auto;    
 }
 
 .menu{
-    list-style-position: inside;
-    line-height: 3.5rem;
-    color: transparent;
+    margin: 0;
+    text-align: right;
+    position: absolute;
 }
 
 
 .menu1{
     display: inline; 
     vertical-align: top;
-    text-align: center;
+    object-position: center;
     padding-top: .5rem;
     padding-bottom: 1rem;
-    font-size: 1.5rem;
-    background-color: black;
 }
 
-table.menu{
-    text-indent: 0%;
-    width: 400px;
+#home{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
+#topo{
+    margin-top: 3rem;
+}
+
+.portfolio{
+    border: solid 2px black;
+}
+
+.projetos{
+    width: 25%;
+    height: auto;
+}
 
 .rodape1{
     text-align: center;
-    font-size: .75rem;
+    font-size: 1rem;
     line-height: 0.5em;
     text-transform: uppercase;
+    vertical-align:bottom;
 }
 
 .rodape2{
     text-align: center;
-    font-size: .75rem;
+    font-size: 1rem;
     line-height: 0.5em;
+    vertical-align: middle;
+    padding-bottom: 2rem;
+}
