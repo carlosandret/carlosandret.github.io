@@ -1,11 +1,11 @@
 body{
     text-align: justify;
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 header{
@@ -20,11 +20,13 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     text-align: center;
+    color: #8c52ff;
 }
 
 h2{
     margin-bottom: 0;
     padding-bottom: 0;
+    color: #8c52ff;
 }
 
 h4{
@@ -50,7 +52,7 @@ sup{
 
 a:link, a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover, a:active {
@@ -72,6 +74,8 @@ button{
     width: 13%;
     font-size: 1.2rem;
     font-weight: bold;
+    color: white;
+    background-image:linear-gradient(to right, #004aad, #cb6ce6)
 }
 
 .icones{
@@ -84,7 +88,6 @@ button{
     text-align: right;
     position: absolute;
 }
-
 
 .menu1{
     display: inline; 
@@ -100,17 +103,69 @@ button{
     height: 100%;
 }
 
+#angela, #carlos, #ysabella{
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.margem200{
+    margin-left: 200px;
+    padding: 0;
+}
+
+#angela{
+    background-image: url(imagens/avatar2.jpeg);
+}
+
+#carlos{
+    background-image: url(imagens/avatar1.jpeg);
+}
+
+#ysabella{
+    background-image: url(imagens/avatar3.jpeg);
+}
+
 #topo{
     margin-top: 3rem;
 }
 
 .portfolio{
-    border: solid 2px black;
+    border: solid 2px white;
 }
 
 .projetos{
     width: 25%;
     height: auto;
+}
+
+#sgbd, #site, #app{
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#sgbd{
+    background-image: url(imagens/banco_de_dados.png);
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#site{
+    background-image: url(imagens/site.png);
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#app{
+    background-image: url(imagens/app.png);
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.margem500{
+    margin-left: 520px;
+    margin-top: 50px;
+    padding: 0;
 }
 
 .rodape1{
@@ -119,10 +174,11 @@ button{
     line-height: 0.5em;
     text-transform: uppercase;
     vertical-align:bottom;
+    color: #01fefd;
 }
 
 .rodape2{
-    text-align: center;
+    text-align: right;
     font-size: 1rem;
     line-height: 0.5em;
     vertical-align: middle;
