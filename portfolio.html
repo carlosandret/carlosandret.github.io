@@ -13,17 +13,22 @@
 <!--Sugestões a serem discutidas com a equipe-->
 
 <body>
-  
     <header id="topo">
-        <section id="menu">
-            <ul class="menu1">
-                <li class="menu1"><a href="index.html#home"><button>Início</button></a></li>
-                <li class="menu1"><a href="index.html#aboutUS"><button>Sobre nós </button></a></li>
-                <li class="menu1"><a href="index.html#fundadores"><button>Fundadores</button></a></li>
-                <li class="menu1"><a href="#"> <button>Portifólio</button></a></li>
-                <li class="menu1"><a href="#contato"><button>Contato</button></a></li>
-            </ul>
+        <section id="redes_sociais">
+            <p class="menu"><a href="https://github.com/cyatecnologia" target="_blank"> <img src="imagens/github.png" alt="GitHub" class="icones"> </a> <a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;  <a href="https://twitter.com/cyatecnologia" target="_blank"> <img src="imagens/x_twitter.png" alt="X" class="icones"> </a> &nbsp; <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; <a href="https://www.linkedin.com/in/angelachantal" target="_blank"> <img src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
         </section>
+
+        <nav>
+            <table>
+                <ul>
+                    <li><a href="index.html#home">Início</a></li>
+                    <li><a href="#aboutUS">Sobre nós </a></li>
+                    <li><a href="#fundadores">Fundadores</a></li>
+                    <li><a href="portfolio.html"> Portifólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </table>
+        </nav>
     </header>
     
     <h1>Nossos Projetos</h1>
@@ -62,10 +67,10 @@
     <h5 class="direita"><a href="#topo">Topo</a></h5>
 
     <section id="site">
-        <h2>Desenvolvimento de Site Corporativo&copy;</h2>
-            <p>Criamos um site corporativo moderno e responsivo para a BetaTech Indústria e Comércio. O site apresenta um design elegante e funcionalidades avançadas para destacar os produtos e serviços da empresa.</p>
+        <h2 class="margem500">Desenvolvimento de Site Corporativo&copy;</h2>
+            <p class="margem500">Criamos um site corporativo moderno e responsivo para a BetaTech Indústria e Comércio. O site apresenta um design elegante e funcionalidades avançadas para destacar os produtos e serviços da empresa.</p>
 
-            <table class="portfolio">
+            <table class="portfolio, margem500">
                 <tr class="portfolio">
                     <th colspan="3" class="portfolio">Nome do projeto</th>      
                 </tr>
@@ -94,39 +99,47 @@
     </section>
     <h5 class="direita"><a href="#topo">Topo</a></h5>
     <section id="app">
-        <h2>Desenvolvimento de Aplicativo Móvel&copy;</h2>
-            <p>Desenvolvemos um aplicativo móvel personalizado para a GammaLog Logística e Transportes. O aplicativo permite que os clientes da empresa acompanhem o status de suas remessas, solicitem cotações e obtenham suporte em tempo real.</p>
-            <table class="portfolio">
-                <tr class="portfolio">
-                    <th colspan="3" class="portfolio">Nome do projeto</th>      
-                </tr>
-                <tr class="portfolio">
-                    <th class="portfolio">Data de criação</th>
-                    <th class="portfolio">Data de implantação</th>
-                    <th class="portfolio">Número de usuário/clientes</th>
-                </tr>
-                <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
-                </tr>
-                <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
-                </tr>
-                <tr>
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
-                </tr>
-            </table>    
+        <h2 class="margem500">Desenvolvimento de Aplicativo Móvel&copy;</h2>
+            <p class="margem500">Desenvolvemos um aplicativo móvel personalizado para a GammaLog Logística e Transportes. O aplicativo permite que os clientes da empresa acompanhem o status de suas remessas, solicitem cotações e obtenham suporte em tempo real.</p>
+            <div class="margem500">
+                <table class="portfolio">
+                    <tr>
+                        <th colspan="3">Nome do projeto</th>      
+                    </tr>
+                    <tr>
+                        <th>Data de criação</th>
+                        <th>Data de implantação</th>
+                        <th>Número de usuário/clientes</th>
+                    </tr>
+                    <tr>
+                        <td>Outubro de 2016</td>
+                        <td>Agosto de 2017</td>
+                        <td>260</td>
+                    </tr>
+                    <tr>
+                        <td>Outubro de 2016</td>
+                        <td>Agosto de 2017</td>
+                        <td>260</td>
+                    </tr>
+                    <tr>
+                        <td>Outubro de 2016</td>
+                        <td>Agosto de 2017</td>
+                        <td>260</td>
+                    </tr>
+                </table> 
+            </div>   
     </section>
     <h5 class="direita"><a href="#topo">Topo</a></h5>
     <footer id="rodape">
         <h2 class="rodape1">CYA Tech &reg;</h2>
         <hr>
-        <h3 id="contato" class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt="">  &nbsp; Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.cyatech.com.br |&#128231; contato@cyatech.com.br | &#128241; +55 (86) 9 1234 5678 &nbsp; &nbsp; &nbsp;<a href="https://github.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp;<a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;<a href="https://twitter.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/x_twitter.png" alt="X" class="icones"> </a>&nbsp;<a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; <a href="https://www.linkedin.com/in/angelachantal" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
+        <h3 id="contato" class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt="">  &nbsp; 
+            Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.cyatech.com.br |&#128231; contato@cyatech.com.br | &#128241; +55 (86) 9 1234 5678 &nbsp; &nbsp; &nbsp;
+            <a href="https://github.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp;
+            <a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;
+            <a href="https://twitter.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/x_twitter.png" alt="X" class="icones"> </a>&nbsp;
+            <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; 
+            <a href="https://www.linkedin.com/in/angelachantal" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
         </h3>
     </footer>
 </body>

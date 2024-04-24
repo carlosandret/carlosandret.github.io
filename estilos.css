@@ -1,6 +1,6 @@
 body{
     text-align: justify;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,11 +11,12 @@ body{
 header{
     width: 100%;
     height: auto;
+    background-image: url(imagens/CYA_Desenvolvimento.png);
 }
 
-h1, h2, h3, h4, h5, h6{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+h1, h2, h3, h4, h5, h6, p{
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 h1{
@@ -32,13 +33,11 @@ h2{
 h4{
     margin-top: 0;
     padding-top: 0;
+    border-radius: 8px;
+    background-color: #8c52ff;
+    text-align: center;
 }
 
-p{
-    text-indent: 0rem;
-    margin-left: 2.5rem;
-    margin-right: 1.5rem;
-}
 
 li{
     margin-left: 2.5rem;
@@ -56,28 +55,63 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    text-decoration: underline;
-
+    text-decoration: none;
+    transition: bacground-color
 }
 
-aside{
-    width: min-content;
-    height: min-content;
-    position: relative;
+a:hover{
+    background-color: rgb(123, 98, 216);
+    border-radius: 5px;
 }
 
 table{
     margin: 5%;
 }
 
-button{
+td{
+    padding-right: 50px;
+}
+
+th{
+    text-decoration: underline;
+}
+/* button{
     width: 13%;
     font-size: 1.2rem;
     font-weight: bold;
     color: white;
     background-image:linear-gradient(to right, #004aad, #cb6ce6)
+} */
+    /* Navegação da página */
+nav {
+    font-size: 2rem;
+    padding: 500px 20px 0px 20px;
+    color: white;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none;
+    padding: 7px 5px;
+    transition: bacground-color
+    /* Efeito da transição */
+}
+
+nav ul li a:hover {
+    background-color: rgb(123, 98, 216);
+    border-radius: 5px;
+}
 .icones{
     width: 40px;
     height: auto;    
@@ -89,13 +123,13 @@ button{
     position: absolute;
 }
 
-.menu1{
+/* .menu1{
     display: inline; 
     vertical-align: top;
     object-position: center;
     padding-top: .5rem;
     padding-bottom: 1rem;
-}
+} */
 
 #home{
     object-fit: contain;
@@ -123,16 +157,22 @@ button{
 }
 
 #ysabella{
-    background-image: url(imagens/avatar3.jpeg);
+    background-image: url(imagens/avatar4.jpeg);
 }
 
-#topo{
-    margin-top: 3rem;
-}
+/* #topo{
+    /* margin-top: 3rem; 
+}*/
 
-.portfolio{
+.portifolio{
+    border-collapse: collapse;
     border: solid 2px white;
 }
+
+/* .portifolio, tr, th, td{
+    border: solid 2px white;
+    border-collapse: collapse;
+} */
 
 .projetos{
     width: 25%;
@@ -183,4 +223,9 @@ button{
     line-height: 0.5em;
     vertical-align: middle;
     padding-bottom: 2rem;
+}
+
+footer{
+    padding-top: 2px;
+    background-color: rgb(75, 74, 74);
 }
