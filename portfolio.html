@@ -4,135 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Substituir o título pelo nome da Página-->
-    <title>Avaliação IAW</title>
+    <title>CYA Tech</title>
     <link rel="stylesheet" href="estilos.css">
-    <!--Escolher uma imagem como icone do site-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
-<!--Sugestões a serem discutidas com a equipe-->
 
 <body>
-    <section id="redes_sociais">
-        <p class="menu"><img src="imagens/logoCYA.png" alt="logo CYA Tech"> &nbsp; <a href="https://github.com/cyatecnologia" target="_blank"> <img src="imagens/github.png" alt="GitHub" class="icones"> </a> <a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;  <a href="https://twitter.com/cyatecnologia" target="_blank"> <img src="imagens/x_twitter.png" alt="X" class="icones"> </a> &nbsp; <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; <a href="https://www.linkedin.com/in/angelachantal" target="_blank"> <img src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
-    </section>
-    <hr>
-    
-    <header id="topo">
-        <section id="menu">
-            <ul class="menu1">
-                <li class="menu1"><a href="index.html#home"><button>Início</button></a></li>
-                <li class="menu1"><a href="index.html#aboutUS"><button>Sobre nós </button></a></li>
-                <li class="menu1"><a href="index.html#fundadores"><button>Fundadores</button></a></li>
-                <li class="menu1"><a href="#"> <button>Portifólio</button></a></li>
-                <li class="menu1"><a href="#contato"><button>Contato</button></a></li>
-            </ul>
-        </section>
+    <header class="port" id="topo">
+        <div id="redes_sociais">
+            <p class="menu">
+                <a href="https://github.com/cyatecnologia" target="_blank"> 
+                    <img src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp; 
+                <a href="https://www.instagram.com/cyatecnologia" target="_blank"> 
+                    <img src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;  
+                <a href="https://twitter.com/cyatecnologia" target="_blank"> 
+                    <img src="imagens/x_twitter.png" alt="X" class="icones"> </a> &nbsp; 
+                <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> 
+                    <img src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; 
+                <a href="https://www.linkedin.com/in/cyatech" target="_blank"> 
+                    <img src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
+            </p>
+        </div>
+
+        <nav class="port">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#aboutUS">Sobre nós </a></li>
+                    <li><a href="index.html#fundadores">Fundadores</a></li>
+                    <li><a href="#"> Portifólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+        </nav>
     </header>
     
-    <h1>Nossos Projetos</h1>
-        <!--Descrição-->
-
-    <section id="bd-SUAS">
-        <h2>Sistema de Gestão de Banco de Dados&copy;</h2>
-            <img class="projetos" src="imagens/banco_de_dados.webp" alt="Banco de Dados">
-            <p>Desenvolvemos um banco de dados personalizado integrado a um sistema de relatórios mensais para a AlphaCorp Consultoria Empresarial. Esse sistema permite que a empresa gerencie eficientemente seus dados e gere relatórios detalhados para análise de desempenho.</p>
-            <table class="portfolio">
+    <h1 style="padding-top: 70px;">Nossos Projetos</h1>
+        
+    <section id="sgbd">
+        <h2 class="margem500">Sistemas de Gestão de Banco de Dados&copy;</h2>
+            <p class="margem500">Desenvolvemos sistemas de gestão de banco de dados (SGBD) personalizados, integrados a sistema de relatórios mensais para sua empresa. O SGBD permite que a empresa gerencie eficientemente seus dados e gere relatórios detalhados para análise de desempenho.</p>
+            <table class="portfolio, margem500">
                 <tr class="portfolio">
-                    <th colspan="3">Nome do projeto</th>      
+                    <th class="portfolio" colspan="3"> SGBD Implantados</th>      
                 </tr>
                 <tr class="portfolio">
-                    <th class="portfolio">Data de criação</th>
+                    <th class="portfolio">Cliente</th>
                     <th class="portfolio">Data de implantação</th>
-                    <th class="portfolio">Número de usuário/clientes</th>
+                    <th class="portfolio">Número de usuários ativos</th>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">IFPCorp Consultoria Empresarial</td>
+                    <td class="portfolio">Março de 2023</td>
+                    <td class="portfolio numero">120</td>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">Prefeitura Municipal de Piauinópolis</td>
+                    <td class="portfolio">Agosto de 2023</td>
+                    <td class="portfolio numero">360</td>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">Nunes Teixeira Uchôa Advogados Associados</td>
+                    <td class="portfolio">Janeiro de 2024</td>
+                    <td class="portfolio numero">12</td>
                 </tr>
             </table>
+        <h5 class="centro"><a href="#topo">Início&#x2B06;</a></h5>
     </section>
-
-    <h5 class="direita"><a href="#topo">Topo</a></h5>
 
     <section id="site">
-        <h2>Desenvolvimento de Site Corporativo&copy;</h2>
-            <p>Criamos um site corporativo moderno e responsivo para a BetaTech Indústria e Comércio. O site apresenta um design elegante e funcionalidades avançadas para destacar os produtos e serviços da empresa.</p>
-
-            <table class="portfolio">
+        <h2 class="margem500">Desenvolvimento de Site Corporativo&copy;</h2>
+            <p class="margem500">Criamos sites corporativos modernos e responsivos. Os sites apresentam designs elegantes e funcionalidades avançadas para destacar os produtos e serviços da sua empresa.</p>
+            <table class="portfolio, margem500">
                 <tr class="portfolio">
-                    <th colspan="3" class="portfolio">Nome do projeto</th>      
+                    <th class="portfolio" colspan="3"> Sites Desenvolvidos </th>      
                 </tr>
                 <tr class="portfolio">
-                    <th class="portfolio">Data de criação</th>
+                    <th class="portfolio">Cliente</th>
                     <th class="portfolio">Data de implantação</th>
-                    <th class="portfolio">Número de usuário/clientes</th>
+                    <th class="portfolio">Número de usuários ativos</th>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">IFPCorp Consultoria Empresarial</td>
+                    <td class="portfolio">Fevereiro de 2023</td>
+                    <td class="portfolio numero">20</td>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">BetaTech Indústria e Comércio</td>
+                    <td class="portfolio">Maio de 2023</td>
+                    <td class="portfolio numero">120</td>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">Nunes Teixeira Uchôa Advogados Associados</td>
+                    <td class="portfolio">Janeiro de 2024</td>
+                    <td class="portfolio numero">12</td>
                 </tr>
             </table>
-        
+        <h5 class="centro"><a href="#topo">Início&#x2B06;</a></h5>
     </section>
-    <h5 class="direita"><a href="#topo">Topo</a></h5>
     <section id="app">
-        <h2>Desenvolvimento de Aplicativo Móvel&copy;</h2>
-            <p>Desenvolvemos um aplicativo móvel personalizado para a GammaLog Logística e Transportes. O aplicativo permite que os clientes da empresa acompanhem o status de suas remessas, solicitem cotações e obtenham suporte em tempo real.</p>
-            <table class="portfolio">
+        <h2 class="margem500">Desenvolvimento de Aplicativo Móvel&copy;</h2>
+            <p class="margem500">Desenvolvemos aplicativos móveis personalizados para o seu negócio. Os aplicativos atendem às necessidades dos nossos parceiros, a exemplo da GammaLog Logística e Transportes, a quem foi apresentada uma solução para que seus clientes acompanhem o status de suas remessas, solicitem cotações e obtenham suporte em tempo real.</p>
+            <table class="portfolio, margem500">
                 <tr class="portfolio">
-                    <th colspan="3" class="portfolio">Nome do projeto</th>      
+                    <th class="portfolio" colspan="3"> Apps Desenvolvidos </th>      
                 </tr>
                 <tr class="portfolio">
-                    <th class="portfolio">Data de criação</th>
+                    <th class="portfolio">Cliente</th>
                     <th class="portfolio">Data de implantação</th>
-                    <th class="portfolio">Número de usuário/clientes</th>
+                    <th class="portfolio">Número de usuários ativos</th>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">GammaLog Logística e Transportes</td>
+                    <td class="portfolio">Abril de 2023</td>
+                    <td class="portfolio numero">12.000</td>
                 </tr>
                 <tr class="portfolio">
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                    <td class="portfolio">BetaTech Indústria e Comércio</td>
+                    <td class="portfolio">Maio de 2023</td>
+                    <td class="portfolio numero">60.000</td>
                 </tr>
-                <tr>
-                    <td class="portfolio">Outubro de 2016</td>
-                    <td class="portfolio">Agosto de 2017</td>
-                    <td class="portfolio">260</td>
+                <tr class="portfolio">
+                    <td class="portfolio">Prefeitura Municipal de Piauinópolis</td>
+                    <td class="portfolio">Agosto de 2023</td>
+                    <td class="portfolio numero">5000</td>
                 </tr>
-            </table>    
+            </table>
+             
+        <h5 class="centro"><a href="#topo">Início&#x2B06;</a></h5> 
     </section>
-    <h5 class="direita"><a href="#topo">Topo</a></h5>
-    <footer id="rodape">
-        <h2 class="rodape1">CYA Tech&reg;</h2>
+    <footer id="contato">
+        <h2 class="rodape1">CYA Tech &reg;</h2>
         <hr>
-        <h2 class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt="">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.cyatech.com.br | E-mail: contato@cyatech.com.br | +55 (86) 9 1234 5678 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://github.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://twitter.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/x_twitter.png" alt="X" class="icones"> </a> &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.linkedin.com/in/angelachantal" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
-        </h2>
+        <h3 class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt=""> &nbsp; 
+            Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.cyatech.com.br |&#128231; contato@cyatech.com.br | &#128241; +55 (86) 9 1234 5678 &nbsp; &nbsp; &nbsp;
+            <a href="https://github.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp;
+            <a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;
+            <a href="https://twitter.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/x_twitter.png" alt="X" class="icones"> </a>&nbsp;
+            <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; 
+            <a href="https://www.linkedin.com/in/cyatech" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
+        </h3>
     </footer>
 </body>
 

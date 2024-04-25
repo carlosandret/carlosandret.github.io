@@ -1,41 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body{
     text-align: justify;
-    font-size: 16px;
-    font-family: 'Open Sans';
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(to bottom, black,  rgb(75, 74, 74)); /* alterei para gradiente linear */
+    color: white;
 }
 
 header{
-    width: 100%;
-    height: auto;
+    background-image: url(imagens/CYA_Desenvolvimento.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0;
+    /* max-width: 100vw; */
+    height: 650px;
 }
 
-h1, h2, h3, h4, h5, h6{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+header.port{
+    width: 100%;
+    height: 300px;
+    background-position-y:top;
+}
+
+    /* Títulos */
+
+h1, h2, h3, h4, h5, h6, p{
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 h1{
     text-align: center;
+    color: #8c52ff;
+    font-size: 32px;
 }
 
 h2{
     margin-bottom: 0;
     padding-bottom: 0;
+    color: #8c52ff;
 }
 
 h4{
     margin-top: 0;
     padding-top: 0;
+    border-radius: 8px;
+    background-color: #8c52ff;
+    text-align: center;
+    font-size: 1.05rem;
 }
 
-p{
-    text-indent: 0rem;
-    margin-left: 2.5rem;
-    margin-right: 1.5rem;
+h5{
+    font-size: 20px;
+}
+
+    /* Listas */
+
+ol li{
+    list-style:lower-alpha; 
 }
 
 li{
@@ -45,35 +70,101 @@ li{
 
 sup{
     line-height: .05rem;
-    font-size: .7rem;
+    font-size: .9rem;
 }
+
+    /* Links */
 
 a:link, a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover, a:active {
-    text-decoration: underline;
-
+    text-decoration: none;
+    transition: bacground-color
 }
 
-aside{
-    width: min-content;
-    height: min-content;
-    position: relative;
+a:hover{
+    background-image:linear-gradient(to right, #004aad, #cb6ce6);
+    border-radius: 5px;
 }
+
+    /* Tabelas */
 
 table{
     margin: 5%;
+    border-collapse: collapse;
 }
 
-button{
-    width: 13%;
-    font-size: 1.2rem;
-    font-weight: bold;
+td{
+    padding-right: 50px;
+    text-align: left;
 }
 
+td.numero{
+    text-align: right; 
+}
+
+th.habilidades{
+    text-decoration: underline;
+}
+
+table.habilidades, tr.habilidades, th.habilidades, td.habilidades{
+    border: none; 
+}
+table.portfolio, tr.portfolio, th.portfolio, td.portfolio{
+    border: solid 2px white;
+    padding: 5px 10px;
+}
+
+th.portfolio{
+    text-align: center;
+}
+
+    /* Navegação da página */
+
+nav {
+    font-size: 2rem;
+    padding: 500px 20px 0px 20px;
+    color: white;
+   
+}
+nav.port{
+    padding-top: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none;
+    padding: 4px 5px;
+    transition: bacground-color;  /* Efeito da transição */
+}
+
+nav ul li a:hover {
+    background-image:linear-gradient(to right, #004aad, #cb6ce6);
+    border-radius: 5px;
+}
+
+.centro{
+    text-align: right;
+    font-weight:1000;
+}
+
+.centro, a:link a:visited {
+    text-decoration: underline;
+}
 .icones{
     width: 40px;
     height: auto;    
@@ -85,46 +176,79 @@ button{
     position: absolute;
 }
 
-
-.menu1{
-    display: inline; 
-    vertical-align: top;
-    object-position: center;
-    padding-top: .5rem;
-    padding-bottom: 1rem;
+.menu a{
+    background: none;
 }
 
-#home{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
+#angela, #carlos, #ysabella{
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
-#topo{
-    margin-top: 3rem;
+.margem200{
+    margin-left: 200px;
+    padding: 0;
 }
 
-.portfolio{
-    border: solid 2px black;
+#angela{
+    background-image: url(imagens/avatar2.png); /* alterei para png */
 }
 
-.projetos{
-    width: 25%;
-    height: auto;
+#carlos{
+    background-image: url(imagens/avatar1.png); /* alterei para png */
+}
+
+#ysabella{
+    background-image: url(imagens/avatar4.png); /* alterei para png */
+}
+
+#sgbd, #site, #app{
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#sgbd{
+    background-image: url(imagens/banco_de_dados.png);
+
+}
+
+#site{
+    background-image: url(imagens/site.png);
+}
+
+#app{
+    background-image: url(imagens/app.png);
+}
+.margem500{
+    margin-left: 520px;
+    margin-top: 50px;
+    padding: 0;
 }
 
 .rodape1{
     text-align: center;
     font-size: 1rem;
     line-height: 0.5em;
-    text-transform: uppercase;
+    text-transform:uppercase;
     vertical-align:bottom;
+    color: #01fefd;
 }
 
 .rodape2{
-    text-align: center;
+    text-align: right;
     font-size: 1rem;
     line-height: 0.5em;
     vertical-align: middle;
     padding-bottom: 2rem;
+}
+.rodape2 a{
+    background: none;
+}
+
+footer{
+    padding-top: 2px;
 }
